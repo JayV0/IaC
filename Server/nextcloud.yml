@@ -68,8 +68,8 @@ services:
       - ./app/themes:/var/www/html/themes
       - /etc/localtime:/etc/localtime:ro
     environment:
-      - VIRTUAL_HOST=hub.tiefus.nl
-      - LETSENCRYPT_HOST=hub.tiefus.nl
+      - VIRTUAL_HOST=tiefus.nl
+      - LETSENCRYPT_HOST=tiefus.nl
       - LETSENCRYPT_EMAIL=acc.jverrijt@hotmail.com
     restart: unless-stopped
 
